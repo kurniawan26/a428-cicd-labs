@@ -7,7 +7,6 @@ pipeline {
     
     environment {
         CI = 'true'
-        NODE_OPTIONS = '--openssl-legacy-provider'
     }
 
     stages {
